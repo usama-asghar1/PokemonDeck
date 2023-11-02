@@ -4,25 +4,23 @@ import RandomCard from "../RandomCard";
 
 
 function App() {
-//   const [pokemonName, setPokemonName] = useState("");
-  const [isOpen, setIsOpen] = useState(false);
+  // const [pokemonName, setPokemonName] = useState("");
+ 
+  // function getPokemonName(input) {
+  //   setPokemonName(input);
+  //   console.log(pokemonName);
+  // }
 
-//   function getPokemonName(input) {
-//     setPokemonName(input);
-//     console.log(pokemonName);
-//   }
-
-  function togglePopup() {
-    setIsOpen(!isOpen);
-    console.log("i am here");
-  }
 
   return (
     <main className="App">
       <section className="main-content">
         <div class="row">
           <div class="col">
-            <RandomCard togglePopup={togglePopup} isOpen={isOpen} />
+            <RandomCard />
+          </div>
+          <div class="col">
+            <RandomCard />
           </div>
         </div>
       </section>

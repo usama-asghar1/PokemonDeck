@@ -41,7 +41,7 @@ function handleFetchRandomCard () {
   return (
     <section className="random-card-container">
       {isLoading ? ( // Render a placeholder element while loading
-        <div className="card-placeholder"></div>
+        <div className="card-placeholder">Loading</div>
       ) : (
         <article className="card">
           {randomCard.images && randomCard.images.small && (
@@ -50,7 +50,7 @@ function handleFetchRandomCard () {
         </article>
       )}
   <button type="button" onClick={handleFetchRandomCard}>
-        Random Card
+        Get Random Card
   </button>
 
 

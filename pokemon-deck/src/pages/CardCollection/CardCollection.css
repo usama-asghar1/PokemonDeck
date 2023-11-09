@@ -1,0 +1,14 @@
+.card-collection {
+    display: grid;
+    grid-template-rows: auto, 1fr;
+  }
+  
+
+  .card-collection__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 60px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  

@@ -11,11 +11,11 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.4; /* Adjust the opacity value (0.5) to your desired level */
+    opacity: 0.4; 
     z-index: -1;
   }
   
-  .main-content{
+  /* .main-content{
     padding-top: 100px
   
-  }
+  } */

@@ -1,5 +1,5 @@
 import {  Link } from "react-router-dom";
-import "./Header.css"
+import "./PageHeader.css"
 
 
 export const Header = () => {
@@ -7,7 +7,7 @@ export const Header = () => {
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid ">
         <Link className="navbar-brand" to="/">
-          <span className="navbar-brand-name">PokemonDeck</span>
+          <span className="navbar-brand-name">Back to Search</span>
         </Link>
         </div>
 

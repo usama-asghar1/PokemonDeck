@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import "./App.css";
 import RandomCard from "../RandomCard";
 import { Header } from "../Header";
+import Input from "../Input";
 
 
 function App() {
-  // const [pokemonName, setPokemonName] = useState("");
+  const [pokemonName, setPokemonName] = useState("");
  
-  // function getPokemonName(input) {
-  //   setPokemonName(input);
-  //   console.log(pokemonName);
-  // }
+  function getPokemonName(input) {
+    setPokemonName(input);
+    console.log(pokemonName);
+  }
 
 
   return (
@@ -20,8 +21,8 @@ function App() {
       </div>
       <section className="main-content">
         <div class="row">
-          <div class="col">
-            <RandomCard />
+        <div class="col">
+            <Input getPokemonName={getPokemonName} pokemonName={pokemonName} />
           </div>
           <div class="col">
             <RandomCard />

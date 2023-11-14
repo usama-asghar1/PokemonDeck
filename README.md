@@ -1,6 +1,6 @@
 # PokemonDeck - IN PROGRESS
 
-A React app that allows users to create their own Pokemon decks, and sort, filter and delete them. 
+A React app that allows users to create their own Pokemon decks, and sort, filter and delete them. <br>
 Current version (front end only) - users can randomly generate a different pokemon card and search through different cards to find more information about them.
 
 ## Usage

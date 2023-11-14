@@ -32,7 +32,7 @@ function CardCollection() {
         <h2>Loading...</h2> // render loading message while data is being fetched
       ) : (
         <>
-          <h2>Search Result for: {pokemonName}</h2>
+          <h2 className="search">Search Result for: {pokemonName}</h2>
           <ul className="card-collection__cards">
             {Array.isArray(pokemon) &&
               pokemon.map((card) => (

@@ -3,7 +3,16 @@
     grid-template-rows: auto, 1fr;
   }
   
-
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+  }
+  
   .card-collection__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
